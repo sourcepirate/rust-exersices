@@ -13,3 +13,6 @@ pub fn hamming_distance(s1: &'static str, s2: &'static str) -> Result<u32, &'sta
     }
     return Ok(ham);
 }
+
+//    s1.chars().zip(s2.chars()).filter(|x| x.0 != x.1).count()
+//    a one liner
