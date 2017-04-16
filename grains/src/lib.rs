@@ -5,6 +5,11 @@ pub fn square(s: u32) -> u64 {
     2u64.pow(s-1)
 }
 
+// pub fn total() -> u64 {
+//   (1..65).map(|x| square(x)).fold(0, |acc, i| acc+ i)
+// }
+
+//alternative solution
 pub fn total() -> u64 {
-  (1..65).map(|x| square(x)).fold(0, |acc, i| acc+ i)
+    !0 as u64  // cool short path for MAX_INT
 }
